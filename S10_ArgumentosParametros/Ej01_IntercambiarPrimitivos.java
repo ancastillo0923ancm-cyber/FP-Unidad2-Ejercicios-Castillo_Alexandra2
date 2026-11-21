@@ -1,7 +1,7 @@
 /*
  * Sesión: S10 - Argumentos y parámetros
  * Ejercicio 01: Intercambiar primitivos
- * Enunciado: método intercambiar(int a, int b); ¿funciona? ¿por qué?
+ * Enunciado: método intercambiar(int a, int b)
  * Autor: Castillo Alexandra
  * Fecha: 18/11/2026
  */
@@ -16,10 +16,10 @@ public class Ej01_IntercambiarPrimitivos {
     }
 
     public static void main(String[] args) {
-        int x = 5;
-        int y = 9;
-        System.out.println("Antes:   x = " + x + ", y = " + y);
-        intercambiar(x, y);
-        System.out.println("Después: x = " + x + ", y = " + y);
+        int a = 5;
+        int b = 9;
+        System.out.println("Antes:   a = " + a + ", b = " + b);
+        intercambiar(a, b);
+        System.out.println("Después: a = " + a + ", b = " + b);
     }
 }
